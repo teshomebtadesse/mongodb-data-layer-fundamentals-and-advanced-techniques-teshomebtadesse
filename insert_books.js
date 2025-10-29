@@ -131,7 +131,27 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  },
+  {
+    title: 'Integrated Watershed Management',
+    author: 'Teshome B. Tadesse',
+    genre: 'Environmental Science',
+    published_year: 2023,
+    price: 18.75,
+    in_stock: true,
+    pages: 412,
+    publisher: 'Werabe University Press'
+},
+{
+  title: 'Geospatial Analysis for Watershed Planning',
+  author: 'Alemu G. Mekonnen',
+  genre: 'GIS and Remote Sensing',
+  published_year: 2022,
+  price: 21.40,
+  in_stock: true,
+  pages: 356,
+  publisher: 'GeoScience Publications'
+}
 ];
 
 // Function to insert books into MongoDB
